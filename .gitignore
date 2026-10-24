@@ -1,0 +1,31 @@
+# Secrets - KHÔNG BAO GIỜ COMMIT!
+.env
+api_keys.txt
+*.json
+credentials/
+
+# Dữ liệu và kết quả (lớn, có giọng nói thật)
+output_voice/
+*.mp3
+*.MP3
+*.wav
+*.srt
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
